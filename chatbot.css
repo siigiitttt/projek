@@ -1,0 +1,92 @@
+.btn{
+  		position: fixed;
+  		right: 0;
+  		bottom: 0;
+  		z-index: 1080;
+  	}
+  	.btn:hover{
+  		background-color: orange;
+  		border: none;
+  	}
+  	.pop-up-wrapper{
+  		position: fixed;
+  		right: 0;
+  		bottom: 0;
+  		z-index: 1080;
+  		margin-right: 15px;
+  		margin-bottom: 70px;
+  		width: 350px;
+  		background-image: url(img/AI1.png);
+  		box-shadow: 3px 5px 10px #E1E1E1;
+  	}
+  	#chatbot{
+  		position: fixed;
+  		right: 0;
+  		bottom: 0;
+  		z-index: 1080;
+  		display: none;
+  		overflow: auto;
+  	}
+
+  	.header{
+  		height: 50px;
+  		background-image: url(img/AI.png);
+  		color: orange;
+  		font-size: 18px;
+  		font-weight: bold;
+  		font-family: 'M PLUS 2';
+  		text-align: center;
+  		padding-top: 12px;
+  	}
+  	.close{
+  		font-size: 35px;
+  		color: orange;
+  		background-color: transparent;
+  		position: absolute;
+  		right: 14px;
+  		top: -2px;
+  	}
+  	.close:hover{
+  		cursor: pointer;
+  	}
+  	.isi{
+  		overflow: hidden;
+  		width: 350px;
+  		height: 350px;
+  	}
+  	.pesan-bot{
+  		background-color: whitesmoke; 
+  		font-size: 14px;
+  		font-family: "Open Sans";
+  		width: 50%;
+  		/*border-radius: 5px;*/
+  		padding: 5px;
+  		margin: 12px;
+  		border-radius: 10px;
+  		box-shadow: 5px 5px 15px rgba($dark, 0.5);
+  	}
+  	.pesan-user{
+  		background-color: #262626;
+  		color: white;
+  		font-size: 14px;
+  		font-family: "Open Sans";
+  		width: 50%;
+  		border-radius: 5px;
+  		padding: 5px;
+  		margin: 12px;
+  		margin-left: 150px;
+  	}
+  	.footer{
+  		height: 50px;
+  		border: 1px solid #E3E3E3;
+  	}
+  	.pesan{
+  		margin-left: 15px;
+  		width: 85%;
+  		font-family: "Open Sans";
+  	}
+  	.btnkirim{
+  		border-style: none;
+  		color: #262626;
+  		background-color: transparent;
+  	}
